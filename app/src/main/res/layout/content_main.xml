@@ -99,6 +99,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button_rounded"
             android:text="@string/lbl_submit"
+            android:foreground="@drawable/ripple"
             android:textAppearance="@android:style/TextAppearance.Medium" />
 
     </LinearLayout>
