@@ -88,19 +88,19 @@ public class MainActivity extends AppCompatActivity {
         String firstName = editFirstName.getText().toString();
         String lastName = editLastName.getText().toString();
         String favFood = editFavFood.getText().toString();
-        int favNumber = Integer.parseInt(editFavNumber.getText().toString());
+        String favNumber = editFavNumber.getText().toString();
 
         String message = " ";
         int firstNum = 0;
         int secNum = 0;
         int thirdNum = 1;
 
-        List<Integer> favList = new ArrayList<>();
+        List<String> favList = new ArrayList<>();
         for (int i = 1; i <= 100; i++) {
             firstNum = secNum;
             secNum = thirdNum;
             thirdNum = firstNum + secNum;
-            favList.add(firstNum);
+            favList.add(String.valueOf(firstNum));
         }
 
         //check favourite number is fibonacci number or not
