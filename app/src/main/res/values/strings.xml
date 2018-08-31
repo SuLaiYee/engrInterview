@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login Form</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_first_name">Enter Your First Name</string>
+    <string name="hint_last_name">Enter Your Last Name</string>
+    <string name="hint_favourite_food">Enter Your Favourite Food Name</string>
+    <string name="hint_favourite_number">Enter Your Favourite Number</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="login_form">Login Form</string>
+    <string name="hello">Hello SuLai</string>
+</resources>
